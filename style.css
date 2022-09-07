@@ -4,7 +4,7 @@
 }
 
 .full-screen-container {
-   background-image: url("Images/background_img.jpg");
+   /* background-image: url("Images/background_img.jpg"); */
    height: 656px;
    width: 1536px;
 }
