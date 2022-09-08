@@ -55,3 +55,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.input-group label {
+    color: white;
+    font-weight: lighter;
+ 
+}
