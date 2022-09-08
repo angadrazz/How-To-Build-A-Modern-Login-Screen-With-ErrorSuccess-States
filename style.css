@@ -23,7 +23,7 @@ body {
 }
 
 .login-container {
-    background-color: blue;
+    background-color:  hsl(hue, saturation, lightness);
 }
 
 .login-title {
