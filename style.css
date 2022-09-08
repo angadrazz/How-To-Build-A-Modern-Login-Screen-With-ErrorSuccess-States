@@ -71,6 +71,8 @@ body {
     border-radius: 5px;
     color: white;
     font-weight: lighter;
+}
 
-
+.input-group:focus {
+    box-shadow: 0 0 0 1px hsl(var(--primary-hsl), .3);
 }
