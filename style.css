@@ -65,4 +65,7 @@ body {
 .input-group input {
     font-size: 18px;
     padding: 8px;
+    background-color: hsl(var(--primary-light-hsl), .3);
+    border: none;
+    outline: none;
 }
