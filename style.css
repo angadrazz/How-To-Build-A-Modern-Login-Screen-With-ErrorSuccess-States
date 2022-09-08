@@ -27,6 +27,8 @@ body {
 .login-container {
     --color:  hsl(var(--primary-dark-hsl), .7);
     background-color:  hsl(var(--primary-dark-hsl), .7); 
+    box-shadow: 0 0 15px 0 var(--color);
+    padding: 40px 30px;
 }
 
 .login-title {
