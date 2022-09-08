@@ -73,6 +73,11 @@ body {
     font-weight: lighter;
 }
 
+.input-group input.success {
+    box-shadow: 0 0 0 1px hsl(var(--success-hsl),);
+
+}
+
 .input-group input:focus {
-    box-shadow: 0 0 0 1px hsl(var(--primary-hsl), .3);
+    box-shadow: 0 0 0 1px hsl(var(--primary-hsl),);
 }
