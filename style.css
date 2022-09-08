@@ -85,10 +85,28 @@ body {
 }
 
 .input-group input:focus {
-    box-shadow: 0 0 0 1px hsl(var(--primary-hsl),);
+    box-shadow: 0 0 0 1px hsl(var(--primary-hsl));
 }
 
 .input-group .msg {
     display: none;
-    font-size: 75rem;
+    font-size: .75rem;
+}
+
+.input-group.success .msg,
+.input-group.error .msg {
+    display: block;
+}
+
+.input-group.error .msg {
+    color: hsl(var(--error-hsl));
+}
+
+.input-group.success .msg {
+    color: hsl(var(--success-hsl));
+}
+
+.login-buton {
+    padding: 10px;
+    font-size: 24px;
 }
