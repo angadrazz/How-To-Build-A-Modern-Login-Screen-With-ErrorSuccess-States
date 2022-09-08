@@ -68,4 +68,6 @@ body {
     background-color: hsl(var(--primary-light-hsl), .3);
     border: none;
     outline: none;
+    border-radius: 5px;
+        
 }
