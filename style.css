@@ -61,3 +61,8 @@ body {
     font-weight: lighter;
  
 }
+
+.input-group input {
+    font-size: 18px;
+    padding: 8px;
+}
