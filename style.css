@@ -25,6 +25,7 @@ body {
 }
 
 .login-container {
+    --color:  hsl(var(--primary-dark-hsl), .7);
     background-color:  hsl(var(--primary-dark-hsl), .7); 
 }
 
